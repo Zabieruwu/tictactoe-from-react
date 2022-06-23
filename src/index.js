@@ -73,6 +73,7 @@ function Square(props) {
     }
   }
   
+  //componente de las reglas
   class Game extends React.Component {
     render() {
       return (
@@ -113,3 +114,7 @@ function Square(props) {
   
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(<Game />);
+
+
+
+  
